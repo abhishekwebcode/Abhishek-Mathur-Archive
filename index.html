@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+    <title>Page 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <style>
+    body{margin: 0px; padding: 0px;}
+        .body {
+            margin: 0px;
+            padding: 0px;
+            background: url(logoy.png);
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+        }
+        
+        @font-face {
+            font-family: "Harabara Bold";
+            src: url("http://1101tech.com/fonts/font_black.ttf");
+        }
+        
+        * {
+            font-family: "Harabara Bold", sans-serif;
+        }
+
+@media only screen and (max-width: 600px) {
+   .body {
+    margin: 0px;
+    padding: 0px;
+    background: url(logoyd.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+   /* margin-top: -83px;*/
+}
+.preloader {
+    position: fixed;
+    top: 25% !important;
+    left: -52px !important;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+}
+        
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="body"></div>
+    <div class="preloader loader" id="loader">
+        <div class="preloader-inner">
+            <a href="index.html" class="menu-logo" style="
+    font-size: 14px;
+    border-color: white;
+    width: 80px;
+    color: white;
+    border-radius: 17px;
+    border-width: 19px;
+    text-decoration: none;
+    border: 4px solid;
+    padding: 8px 0px;
+    display: block;
+    line-height: 17px;
+    ">
+<p style="
+    color: black !important;
+    display: contents;
+">
+                    <center>
+                        Coming
+                    </center>
+                    <center>
+                        Very
+                    </center>
+                    <center>
+                        Soon
+                    </center>
+
+            </a>
+        </div>
+    </div>
+
+</body>
+<style>
+    .preloader {
+        position: fixed;
+        top: 19%;
+        left: 20%;
+        z-index: 999999;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .preloader .preloader-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: inline-block;
+        width: 60px;
+        height: auto;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        color: white;
+    }
+    
+    .preloader .preloader-inner img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+        position: relative;
+        z-index: 2
+    }
+    
+    @keyframes rotating {
+        from {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+    
+    .preloader .preloader-inner:after {
+       content: '';
+    display: inline-block;
+    width: 140px;
+    height: 7px;
+    position: absolute;
+    top: 113%;
+    left: 154%;
+    z-index: 1;
+    margin: -50px 0 0 -50px;
+    border-top: 1px solid transparent;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-radius: 93em;
+    border-width: 12px;
+    color: white;
+    /* -webkit-animation: rotating 1s linear both infinite; */
+    animation: rotating 0.01s linear both infinite;
+    }
+    
+    .preloader-inner {
+        top: 55% !important;
+        left: 63% !important;
+    }
+    
+    .menu-logo {
+        box-shadow: 0 0 1px transparent;
+        display: inline-block;
+        position: relative;
+        transform: perspective(1px) translateZ(0px);
+        transition-duration: 0.5s;
+        transition-property: color;
+        vertical-align: middle;
+    }
+    
+    .menu-logo1:hover::before,
+    .menu-logo:focus::before,
+    .menu-logo:active::before {
+        transform: scaleY(1);
+        transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+    
+    .header-2 .menu-logo::before {
+        background-color: #288feb;
+    }
+    
+    .header-2 .menu-logo1:hover,
+    .black.menu-logo1:hover {
+        color: #fff;
+    }
+    
+    .black.menu-logo::before {
+        background: #000 none repeat scroll 0 0;
+    }
+    
+    .menu-logo {
+        display: inline-block;
+        font-family: "Harabara Bold", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+</style>
+
+</html>
